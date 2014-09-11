@@ -1,0 +1,10 @@
+Package: myrutils
+Type: Package
+Title: Personal R functions
+Version: 1.0
+Date: 2014-09-10
+Author: Abiel Reinhart
+Maintainer: Abiel Reinhart <abielr@gmail.com>
+Description: Personal R functions
+License: GPL
+Depends: pdfetch, data.table, xts, ggplot2, lubridate
