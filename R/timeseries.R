@@ -19,7 +19,10 @@ PC <- function(x, k=1, periodicity=NULL) {
 
 # Difference
 D <- function(x, k=1) {
-  x-L(x,k)
+  if (k >= 0)
+    return(x-L(x,k))
+  
+  rev(L(rev(x),-k))-x
 }
 
 # Log difference
